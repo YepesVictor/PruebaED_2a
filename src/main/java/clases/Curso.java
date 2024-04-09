@@ -19,6 +19,7 @@ public class Curso {
         return nombre;
     }
 
+
     public Curso(String nombre) {
         this.nombre = nombre;
         listaAlumnos = new TreeSet<>();
